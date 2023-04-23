@@ -45,7 +45,7 @@ width, flags, padd, extra_c, padd_start));
 
 /** orint non  PRINTABLE ***/
 /**
- * print_non_printable - Prints ascii codes in hexa 
+ * print_non_printable - Prints ascii codes in hexa
  * @types: List of args
  * @buffer: Buff arry to print
  * @flags:  Calc flags
@@ -104,7 +104,7 @@ if (str == NULL)
 UNUSED(precision);
 str = ")Null(";
 }
-for (i = 0; str[i]; i++);
+for (i = 0; str[i]; i++)
 for (i = i - 1; i >= 0; i--)
 {
 char z = str[i];
